@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Example POST</title>
+</head>
+<body>
+
+	<form th:action="@{/session}" method="post">
+		First name:<br/> <input type="text" name="firstname"/> <br/>
+		Last name:<br/> <input type="text" name="lastname"/> <br/>
+		 <p><input type="submit" value="Done" /></p>
+	</form>
+</body>
+</html>
